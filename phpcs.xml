@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Hreflang Manager">
+    <description>WordPress coding standards for Hreflang Manager.</description>
+    <file>src</file>
+    <file>hreflang-manager.php</file>
+    <exclude-pattern>tests/*</exclude-pattern>
+
+    <rule ref="WordPress-Core" />
+    <rule ref="WordPress-Extra" />
+    <rule ref="WordPress-Security" />
+
+    <config name="testVersion" value="7.4-"/>
+</ruleset>
