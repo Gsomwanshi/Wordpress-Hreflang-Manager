@@ -1,0 +1,27 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Dependencies / build
+vendor/
+node_modules/
+composer.lock
+npm-debug.log*
+yarn-error.log
+
+# WordPress env
+wp-content/uploads/
+wp-config.php
+
+# Coverage / cache
+coverage/
+.phpunit.result.cache
+.php-cs-fixer.cache
+.cache/
+dist/
+
+# Zips
+*.zip
